@@ -26,6 +26,7 @@ import {
   Atom,
   Droplets,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -180,7 +181,7 @@ export default function HomePage() {
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             alt="Industrial hydrogen facility"
             className="w-full h-full object-cover"
@@ -358,7 +359,7 @@ export default function HomePage() {
             {/* Gas Blending */}
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="mb-6">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Gas blending facility"
                   className="w-full h-48 object-cover rounded-lg"
@@ -406,7 +407,7 @@ export default function HomePage() {
             {/* Microgrids */}
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="mb-6">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Microgrid infrastructure"
                   className="w-full h-48 object-cover rounded-lg"
@@ -454,7 +455,7 @@ export default function HomePage() {
             {/* Replacing Traditional Fuels */}
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="mb-6">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Clean transportation"
                   className="w-full h-48 object-cover rounded-lg"
@@ -552,7 +553,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="mb-4">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Green hydrogen production plant"
                     className="w-full h-32 object-cover rounded-lg"
@@ -572,7 +573,7 @@ export default function HomePage() {
 
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="mb-4">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Hydrogen fueling station"
                     className="w-full h-32 object-cover rounded-lg"
@@ -592,7 +593,7 @@ export default function HomePage() {
 
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="mb-4">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Gas blending infrastructure"
                     className="w-full h-32 object-cover rounded-lg"
@@ -612,7 +613,7 @@ export default function HomePage() {
 
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="mb-4">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Microgrid control systems"
                     className="w-full h-32 object-cover rounded-lg"
@@ -636,7 +637,7 @@ export default function HomePage() {
             {/* Green Hydrogen */}
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl shadow-lg">
               <div className="mb-6">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Green hydrogen electrolysis"
                   className="w-full h-48 object-cover rounded-lg"
@@ -692,7 +693,7 @@ export default function HomePage() {
             {/* Turquoise Hydrogen */}
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-xl shadow-lg">
               <div className="mb-6">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Turquoise hydrogen production"
                   className="w-full h-48 object-cover rounded-lg"
