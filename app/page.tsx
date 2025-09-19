@@ -58,7 +58,15 @@ export default function HomePage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-3">
+              <Image
+                src="/logo.jpg"
+                alt="Hycarane Logo"
+                width={40}
+                height={40}
+                className="rounded-full"
+                priority
+              />
               <h1 className="text-2xl font-bold text-blue-600">Hycarane</h1>
             </div>
 
@@ -184,7 +192,9 @@ export default function HomePage() {
           <Image
             src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             alt="Industrial hydrogen facility"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-700/70 to-cyan-500/60"></div>
           <div className="absolute inset-0 bg-black/30"></div>
@@ -362,6 +372,8 @@ export default function HomePage() {
                 <Image
                   src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Gas blending facility"
+                  width={1000}
+                  height={600}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -410,6 +422,8 @@ export default function HomePage() {
                 <Image
                   src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Microgrid infrastructure"
+                  width={1000}
+                  height={600}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -458,6 +472,8 @@ export default function HomePage() {
                 <Image
                   src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Clean transportation"
+                  width={1000}
+                  height={600}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -556,6 +572,8 @@ export default function HomePage() {
                   <Image
                     src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Green hydrogen production plant"
+                    width={800}
+                    height={400}
                     className="w-full h-32 object-cover rounded-lg"
                   />
                 </div>
@@ -576,6 +594,8 @@ export default function HomePage() {
                   <Image
                     src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Hydrogen fueling station"
+                    width={800}
+                    height={400}
                     className="w-full h-32 object-cover rounded-lg"
                   />
                 </div>
@@ -596,6 +616,8 @@ export default function HomePage() {
                   <Image
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Gas blending infrastructure"
+                    width={800}
+                    height={400}
                     className="w-full h-32 object-cover rounded-lg"
                   />
                 </div>
@@ -616,6 +638,8 @@ export default function HomePage() {
                   <Image
                     src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                     alt="Microgrid control systems"
+                    width={800}
+                    height={400}
                     className="w-full h-32 object-cover rounded-lg"
                   />
                 </div>
@@ -640,6 +664,8 @@ export default function HomePage() {
                 <Image
                   src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Green hydrogen electrolysis"
+                  width={1000}
+                  height={500}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -696,6 +722,8 @@ export default function HomePage() {
                 <Image
                   src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Turquoise hydrogen production"
+                  width={1000}
+                  height={500}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -834,9 +862,7 @@ export default function HomePage() {
                       Office Address
                     </h4>
                     <p className="text-gray-600">
-                      Innovation Hub, Clean Energy District
-                      <br />
-                      Mumbai, Maharashtra 400001
+                      Hyderabad, Telangana 500070
                       <br />
                       India
                     </p>
@@ -851,7 +877,7 @@ export default function HomePage() {
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">
                       Phone
                     </h4>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 93926 08264</p>
                   </div>
                 </div>
 
@@ -863,7 +889,7 @@ export default function HomePage() {
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">
                       Email
                     </h4>
-                    <p className="text-gray-600">info@hycarane.energy</p>
+                    <p className="text-gray-600">hycaraneenergy@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -1138,18 +1164,18 @@ export default function HomePage() {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-gray-400 mt-0.5 flex-shrink-0" />
                   <p className="text-gray-300 text-sm">
-                    Innovation Hub, Clean Energy District
-                    <br />
-                    Mumbai, Maharashtra 400001
+                    Hyderabad, Telangana 500070
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                  <p className="text-gray-300 text-sm">+91 98765 43210</p>
+                  <p className="text-gray-300 text-sm">+91 93926 08264</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                  <p className="text-gray-300 text-sm">info@hycarane.energy</p>
+                  <p className="text-gray-300 text-sm">
+                    hycaraneenergy@gmail.com
+                  </p>
                 </div>
               </div>
             </div>

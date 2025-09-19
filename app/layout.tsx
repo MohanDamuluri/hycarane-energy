@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   title: "Hycarane Energy - Hydrogen for a Better Tomorrow",
   description:
     "Leading hydrogen energy solutions for a sustainable future. Making hydrogen simple, scalable, and affordable.",
-  generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
